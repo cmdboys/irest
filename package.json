@@ -1,0 +1,27 @@
+{
+  "name": "irest",
+  "version": "1.0.0",
+  "description": "Write code to write tired? Use this command line tool to relax!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "irest": "./irest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-Millent/irest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jon-Millent/irest/issues"
+  },
+  "homepage": "https://github.com/Jon-Millent/irest#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^3.8.2"
+  }
+}
