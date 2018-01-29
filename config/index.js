@@ -1,3 +1,6 @@
+
+let ErrorMessage = '): 获取数据失败'
+
 let baseConfig = {
 	joke: { // 笑话配置
 		url: "http://www.walxh.com/pc/wicked/", // 链接
@@ -11,7 +14,8 @@ let baseConfig = {
 			listTitle: '.main-title', // 标题
 			listContent: '.main-content', // 内容
 			listTime: '.main-time' // 时间
-		}
+		},
+		error: ErrorMessage
 	},
 	news: { // 新闻
 		url: "http://sh.qihoo.com/",
@@ -19,12 +23,27 @@ let baseConfig = {
 			listName: '.atom-editor',
 			listTitle: '.title',
 			listContent: '.subtitle'
-		}
-	}
+		},
+        error: ErrorMessage
+	},
+    weather: { // 天气
+        url: "https://www.duba.com/static/weather_info/",
+		data: {
+        	concatStr: '.html'
+		},
+		ipUrl: "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json",
+        page: {
+            listName: '.atom-editor',
+            listTitle: '.title',
+            listContent: '.subtitle'
+        },
+        error: ErrorMessage
+    }
 }
 
 
 module.exports = {
     joke: baseConfig.joke,
-    news: baseConfig.news
+    news: baseConfig.news,
+    weather: baseConfig.weather
 }

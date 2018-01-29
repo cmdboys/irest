@@ -1,26 +1,30 @@
 let Bower = require('./bower')
-let config = require('../config').joke
+let config = require('../config').news
 let tool = require('../tool')
 let cheerio = require('cheerio');  
 
-class Joke{
+class News{
 	constructor(){
 		this.bower = new Bower();
 	}
 
-	getJoke(){
+	getNews(){
 		this.bower.openPage(
-			config.url+'?'+config.page.pageName+'='+(tool.randomRange(config.page.start, config.page.maxLength)),
+			config.url,
             data=>{
 
                 var $=cheerio.load(data);
                 var list = $(config.page.listName);
 
-                var ran = $(list[tool.randomRange(0, list.length-1)])
+
                 console.log('+------------------------------------------------------------+')
-                console.log('(: '+$(ran.find(config.page.listTitle)).text()+'\n')
-                console.log($(ran.find(config.page.listContent)).text()+'\n')
-                console.log($(ran.find(config.page.listTime)).text()+'\n')
+
+                list.each((key, value)=>{
+                    console.log('(: '+tool.trim($($(value).find(config.page.listTitle)).text())+'\n')
+                    console.log(''+tool.trim($($(value).find(config.page.listContent)).text())+'\n')
+
+				})
+
                 console.log('+-----------------------------------------------------------+')
 
 			},
@@ -33,7 +37,7 @@ class Joke{
 
 
 module.exports = {
-	consoleJoke: function () {
-        new Joke().getJoke()
+    consoleNews: function () {
+        new News().getNews()
 	}
 }
