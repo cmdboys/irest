@@ -25,7 +25,7 @@ class Joke{
 
 			},
 			err=>{
-                console.log('获取笑话失败，一定是笑话网站挂了，哈哈哈哈哈哈哈', data)
+                console.log('获取失败，一定是网站挂了，哈哈哈哈哈哈哈', data)
 			}
 		)
 	}
