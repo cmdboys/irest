@@ -39,27 +39,27 @@
         listTitle: '.title',
         listContent: '.subtitle'
       },
-          error: ErrorMessage
+      error: ErrorMessage
     },
-      weather: { // 天气
-          url: "https://www.duba.com/static/weather_info/",
+    weather: { // 天气
+      url: "https://www.duba.com/static/weather_info/",
       data: {
-            concatStr: '.html'
+        concatStr: '.html'
       },
       ipUrl: "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json",
-          page: {
-              listName: '.atom-editor',
-              listTitle: '.title',
-              listContent: '.subtitle'
-          },
-          error: ErrorMessage
+      page: {
+        listName: '.atom-editor',
+        listTitle: '.title',
+        listContent: '.subtitle'
       },
-      image: {
-        url: "https://cn.bing.com/images/search?FORM=HDRSC2&q=",
-        imgClassName: '.mimg',
-        error: ErrorMessage,
-        size: 180 // 图像输出分辨率, 如果图像显示换行请修改此参数到合适的值
-    }
+      error: ErrorMessage
+    },
+    image: { // 图片配置
+      url: "https://cn.bing.com/images/search?FORM=HDRSC2&q=",
+      imgClassName: '.mimg',
+      error: ErrorMessage,
+      size: 180 // 图像输出分辨率, 如果图像显示换行请修改此参数到合适的值
+    }
   }
 
 ```
