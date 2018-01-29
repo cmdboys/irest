@@ -1,2 +1,6 @@
 # irest
-Write code to write tired? Use this command line tool to relax!
+鞋底阿妈
+
+## How to use
+
+* `irest news` 

@@ -1,6 +1,7 @@
 let joke = require('./bin/joke')
 let news = require('./bin/news')
 let weather = require('./bin/weather')
+let image = require('./bin/image')
 
 let cmdArguments = process.argv.splice(2);
 
@@ -13,6 +14,9 @@ switch(cmdArguments[0]){
         break;
 	case 'weather':
         weather.consoleWeather(cmdArguments);
+        break;
+    case 'image':
+        image.consoleImageString(cmdArguments);
         break;
 	default:
         console.log('    需要帮助？\n')

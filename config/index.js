@@ -38,12 +38,17 @@ let baseConfig = {
             listContent: '.subtitle'
         },
         error: ErrorMessage
-    }
+    },
+    image: {
+        url: "https://cn.bing.com/images/search?FORM=HDRSC2&q=",
+		imgClassName: '.mimg'
+	}
 }
 
 
 module.exports = {
     joke: baseConfig.joke,
     news: baseConfig.news,
-    weather: baseConfig.weather
+    weather: baseConfig.weather,
+    image: baseConfig.image
 }

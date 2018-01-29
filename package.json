@@ -22,6 +22,10 @@
   "homepage": "https://github.com/Jon-Millent/irest#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "get-pixels": "^3.3.0",
+    "images": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0",
     "superagent": "^3.8.2"
   }
 }
