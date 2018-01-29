@@ -12,7 +12,7 @@
   
 ![image](https://github.com/Jon-Millent/irest/blob/master/show01.gif?raw=true)
 
-## 配置文件
+## 配置文件 `/config/index.js`
 ```javascript
   let ErrorMessage = '): 获取数据失败'
 
