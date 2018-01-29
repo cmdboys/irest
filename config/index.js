@@ -41,7 +41,9 @@ let baseConfig = {
     },
     image: {
         url: "https://cn.bing.com/images/search?FORM=HDRSC2&q=",
-		imgClassName: '.mimg'
+		imgClassName: '.mimg',
+		error: ErrorMessage,
+		size: 230 // 图像输出分辨率
 	}
 }
 

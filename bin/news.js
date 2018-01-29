@@ -29,7 +29,7 @@ class News{
 
 			},
 			err=>{
-                console.log(config.error, data)
+                console.log(config.error)
 			}
 		)
 	}

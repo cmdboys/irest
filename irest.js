@@ -22,4 +22,6 @@ switch(cmdArguments[0]){
         console.log('    需要帮助？\n')
         console.log('    news 来个热门新闻')
         console.log('    joke 来个笑话')
+        console.log('    weather 看看天气')
+        console.log('    image [opation] 看某张图片')
 }
