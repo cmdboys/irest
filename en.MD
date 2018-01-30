@@ -14,8 +14,8 @@ Write the code to write tired? To relax, to check the weather with the command l
 
 * `irest news`  Check out the news
 * `irest joke`  Come a joke
-* `irest weather`  Look at the weather
-* `irest image [Picture name]`  Search for a picture to see
+* `irest weather [city name]`  Look at the weather
+* `irest image [Picture name(required)]`  Search for a picture to see
 
   
   
