@@ -1,6 +1,6 @@
 # irest
-![image](	https://img.shields.io/packagist/l/doctrine/orm.svg)  
-![image](	https://img.shields.io/badge/node-8.0.x-brightgreen.svg )  
+![image](https://img.shields.io/packagist/l/doctrine/orm.svg)
+![image](https://img.shields.io/badge/node-8.0.x-brightgreen.svg)  
 
 <a href="https://github.com/Jon-Millent/irest/blob/master/README.md">中文</a>
 |
