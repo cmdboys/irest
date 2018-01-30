@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+require('commander')
+  .version(require('../package').version)
+  .usage('<command> [options]')
+  .command('news', '看今天的头条新闻')
+  .command('joke', '来条笑话')
+  .command('weather [arguments]', '看看今天的天气')
+  .command('image [arguments]', '搜张图片看看')
+  .parse(process.argv)

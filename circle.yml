@@ -1,0 +1,3 @@
+circle.ymlmachine:
+  node:
+    version: 6

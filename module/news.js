@@ -1,6 +1,6 @@
 let Bower = require('./bower')
-let config = require('../config').news
-let tool = require('../tool')
+let config = require('../config/index').news
+let tool = require('../tool/index')
 let cheerio = require('cheerio');  
 
 class News{

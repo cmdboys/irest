@@ -1,26 +1,25 @@
 {
-  "name": "irest",
-  "version": "1.0.0",
+  "name": "irest-cli",
+  "version": "1.0.1",
   "description": "Write code to write tired? Use this command line tool to relax!",
-  "main": "index.js",
+  "bin": {
+    "irest": "bin/irest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "irest": "./irest.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jon-Millent/irest.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jon-Millent/irest/issues"
   },
   "homepage": "https://github.com/Jon-Millent/irest#readme",
-  "devDependencies": {
+  "author": "jon-millent",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
     "cheerio": "^1.0.0-rc.2",
     "get-pixels": "^3.3.0",
     "images": "^3.0.1",

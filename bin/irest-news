@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+const news = require('../module/news')
+
+
+program
+  .usage('<command> [options]')
+  .parse(process.argv)
+
+
+
+let template = program.args
+
+news.consoleNews();

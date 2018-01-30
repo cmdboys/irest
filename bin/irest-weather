@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+const weather = require('../module/weather')
+
+
+program
+  .usage('<command> [options]')
+  .parse(process.argv)
+
+
+
+let template = program.args
+
+weather.consoleWeather(template[0]);
