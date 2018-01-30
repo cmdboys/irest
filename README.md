@@ -5,6 +5,7 @@
 
 `npm install irest-cli -g` & `cnpm install irest-cli -g`
 
+
 ## 功能列表
 
 * `irest news`  看看新闻
