@@ -14,8 +14,8 @@
 
 * `irest news`  看看新闻
 * `irest joke`  来个笑话
-* `irest weather`  看看天气
-* `irest image [图片名称]`  搜索一张图片看看
+* `irest weather [城市名称(选传)]`  看看天气
+* `irest image [图片名称(必传)]`  搜索一张图片看看
 
   
   
