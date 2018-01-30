@@ -3,7 +3,7 @@
 |
 <a href="https://github.com/Jon-Millent/irest/blob/master/en.MD">English</a>
 
-Write the code to write tired? To relax, to check the weather with the command line,read the news, read a novel, browse pictures, looking for a romantic programmer ~
+Write the code to write tired? To relax, to check the weather with the command line,read the news, read a joke, browse pictures, looking for a romantic programmer ~
 
 ## install
 
