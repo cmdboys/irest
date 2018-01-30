@@ -1,4 +1,7 @@
 # irest
+<a href="https://github.com/Jon-Millent/irest/blob/master/README.md">中文</a>
+|
+<a href="https://github.com/Jon-Millent/irest/blob/master/en.MD">English</a>
 写代码写的累了？来放松一下吧，来用命令行查查天气，看看新闻，看个小说，浏览图片，寻找属于程序员的浪漫~
 
 ## 安装
