@@ -1,6 +1,6 @@
 {
   "name": "irest-cli",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Write code to write tired? Use this command line tool to relax!",
   "bin": {
     "irest": "bin/irest"

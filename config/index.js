@@ -43,7 +43,7 @@ let baseConfig = {
         url: "https://cn.bing.com/images/search?FORM=HDRSC2&q=",
 		imgClassName: '.mimg',
 		error: ErrorMessage,
-		size: 100 // 图像输出分辨率
+		size: 60 // 图像输出分辨率
 	}
 }
 
