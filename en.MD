@@ -5,12 +5,12 @@
 
 Write the code to write tired? To relax, to check the weather with the command line,read the news, read a joke, browse pictures, looking for a romantic programmer ~
 
-## install
+## Install
 
 `npm install irest-cli -g` & `cnpm install irest-cli -g`
 
 
-## function list
+## Function list
 
 * `irest news`  Check out the news
 * `irest joke`  Come a joke
@@ -20,6 +20,19 @@ Write the code to write tired? To relax, to check the weather with the command l
   
   
 ![image](https://github.com/Jon-Millent/irest/blob/master/show01.gif?raw=true)
+
+
+## Question
+
+*   `irest image xxx` wrong？ Please use the high version `nodejs > 8.0.x`
+*   Image rendering misplaced? Please modify the resolution of the configuration file, see the following configuration file description
+     `/config/index.js`
+    ```javascript
+        image: {
+            size: 100 // Resolution
+        }
+    ```
+*   Can not find the weather in my city? Please add city id in `/ config / city.js`
 
 ## Profile `/config/index.js`
 ```javascript
