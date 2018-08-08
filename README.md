@@ -23,16 +23,27 @@ nodejs低版本无法使用图片功能
 ![image](https://github.com/Jon-Millent/irest/blob/master/show01.gif?raw=true)
 
 ## 问题
+## linux 下报错？
+```cmd
+Found bindings for the following environments:
+  - OS X 64-bit with Node.js 8.x
+```
+解决
+* 运行 `npm root -g` 获取全局目录 cd 到这个目录下的`irest-cli`
+* 运行 `npm install images --save` 即可
 
-*   `irest image xxx` 报错？请使用高版本的 `nodejs > 8.0.x`
-*   图片渲染错位？请修改配置文件分辨率，详细见下面的配置文件说明
+##   `irest image xxx` 报错？  
+请使用高版本的 `nodejs > 8.0.x`
+##   图片渲染错位？  
+请修改配置文件分辨率，详细见下面的配置文件说明
      `/config/index.js`
     ```javascript
         image: {
             size: 100 // 分辨率
         }
     ```
-*   找不到我的城市的天气？请在`/config/city.js` 补充 city id
+##   找不到我的城市的天气？  
+请在`/config/city.js` 补充 city id
 
 ## 配置文件 `/config/index.js`
 ```javascript
