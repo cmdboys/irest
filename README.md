@@ -1,5 +1,5 @@
 # irest
-```cmd
+```
 _________ _______  _______  _______ _________     _______  _       _________
 \__   __/(  ____ )(  ____ \(  ____ \\__   __/    (  ____ \( \      \__   __/
    ) (   | (    )|| (    \/| (    \/   ) (       | (    \/| (         ) (
@@ -53,7 +53,8 @@ Found bindings for the following environments:
 ###   找不到我的城市的天气？  
 请在`/config/city.js` 补充 city id
 
-<hr>
+<hr>  
+
 ## 配置文件 `/config/index.js`
 ```javascript
   let ErrorMessage = '): 获取数据失败'
