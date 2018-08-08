@@ -1,15 +1,9 @@
 #!/usr/bin/env node
 
-const program = require('commander')
 const image = require('../module/image')
 
-
-program
-  .usage('<command> [options]')
-  .parse(process.argv)
-
+module.exports = function(name){
+  image.consoleImageString(name);
+}
 
 
-let template = program.args
-
-image.consoleImageString(template[0]);

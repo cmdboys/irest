@@ -1,15 +1,8 @@
 #!/usr/bin/env node
 
-const program = require('commander')
 const joke = require('../module/joke')
 
+module.exports = function(){
+  joke.consoleJoke();
+}
 
-program
-  .usage('<command> [options]')
-  .parse(process.argv)
-
-
-
-let template = program.args
-
-joke.consoleJoke();
