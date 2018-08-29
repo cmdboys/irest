@@ -14,12 +14,12 @@ ___) (___| ) \ \__| (____/\/\____) |   | |       | (____/\| (____/\___) (___
 写代码写的累了？来放松一下吧，来用命令行查查天气，看看新闻，看个冷笑话，浏览图片，寻找属于程序员的浪漫~   
 nodejs低版本无法使用图片功能
 
-## 安装
+## Install
 
 `npm install irest-cli -g` & `cnpm install irest-cli -g`
 
 
-## 功能列表
+## List
 
 * `irest news`  看看新闻
 * `irest joke`  来个笑话
@@ -30,7 +30,7 @@ nodejs低版本无法使用图片功能
   
 ![image](https://github.com/Jon-Millent/irest/blob/master/show01.gif?raw=true)
 
-## 问题
+## Question
 ### linux 下报错？
 ```cmd
 Found bindings for the following environments:
