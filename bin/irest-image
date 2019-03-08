@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-
-const image = require('../module/image')
-
-module.exports = function(name){
-  image.consoleImageString(name);
-}
-
-

@@ -1,8 +1,0 @@
-#!/usr/bin/env node
-
-const joke = require('../module/joke')
-
-module.exports = function(){
-  joke.consoleJoke();
-}
-

@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-
-const news = require('../module/news')
-
-module.exports = function(){
-  news.consoleNews();
-}
-
-
