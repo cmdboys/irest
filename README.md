@@ -24,7 +24,7 @@ nodejs低版本无法使用图片功能
 * `irest news`  看看新闻
 * `irest joke`  来个笑话
 * `irest weather [城市名称(选传)]`  看看天气
-* `irest image [图片名称(必传)]`  搜索一张图片看看
+* `irest image [图片名称(必传)] [宽度(选传)]`  搜索一张图片看看
 
   
   

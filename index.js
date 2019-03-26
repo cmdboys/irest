@@ -45,6 +45,6 @@ switch (ConsoleArguments[0]) {
     new weatherController.consoleWeather(ConsoleArguments[1])
     break;
   case 'image':
-    new imageController.consoleImageString(ConsoleArguments[1])
+    new imageController.consoleImageString(ConsoleArguments[1], ConsoleArguments[2])
     break;
 }
